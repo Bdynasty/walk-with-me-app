@@ -29,10 +29,6 @@
         android:layout_height="match_parent"
         app:layout_constraintBottom_toTopOf="@id/navigationBar"
         >
-        <!--<include-->
-            <!--layout="@layout/content_main"-->
-            <!--android:id="@+id/mContainer"-->
-            <!--/>-->
 
 
     </FrameLayout>

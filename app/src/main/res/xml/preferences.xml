@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <SwitchPreference
+        android:id="@+id/weightSwitch"
+        android:defaultValue="true"
+        android:key="pref_weight"
+        android:title="@string/pref_weight_title" />
+    <EditTextPreference
+        android:id="@+id/password"
+        android:key="pref_password"
+        android:summary="Set your Target weight"
+        android:title="@string/password" />
+    <EditTextPreference
+        android:id="@+id/targetSteps"
+        android:key="pref_target_steps"
+        android:title="@string/target_steps" />
+    <EditTextPreference
+        android:id="@+id/targetWeight"
+        android:key="pref_target_weight"
+        android:title="@string/target_weight" />
+</PreferenceScreen>
